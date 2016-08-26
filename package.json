@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devbuild": "webpack -d --watch",
-    "prodbuild": "webpack -p",
+    "devbuild": "./node_modules/.bin/webpack -d --watch",
+    "prodbuild": "./node_modules/.bin/webpack -p",
     "start": "pushd ./src/; python -m SimpleHTTPServer; popd;"
   },
   "repository": {

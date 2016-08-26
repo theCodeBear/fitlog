@@ -1,0 +1,73 @@
+body {
+  background-color: #363636;
+}
+
+header {
+  color: white;
+  position: absolute;
+  left: 0;
+  padding: 0 30px;
+  font-size: 3em;
+  font-weight: 100;
+  border-bottom: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.right-tab {
+  position: fixed;
+  right: 0;
+  top: 10%;
+  padding: 10px 20px;
+  width: 100px;
+  background-color: #BFBFBF;
+  transition: background-color 300ms, color 300ms;
+  color: black;
+  font-weight: 200;
+  font-size: 2em;
+  font-family: sans-serif;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 7px 5px 19px 0 black;
+}
+
+.right-tab:hover {
+  color: white;
+  background-color: black;
+  transition: background-color 300ms, color 300ms;
+}
+
+.hide {
+  display: none;
+}
+
+.logout {
+  position: absolute;
+  right: 10px;
+  color: white;
+}
+
+
+/*REGISTER PAGE*/
+.signup-form {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*HOME PAGE*/
+.card-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.profile-card {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 3px 8px black;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+}
