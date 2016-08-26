@@ -1,7 +1,7 @@
 {
-  "name": "react-client-prototype",
+  "name": "fitlog",
   "version": "1.0.0",
-  "description": "A starter project for Client-side Reactjs applications, using babel and webpack.",
+  "description": "An online fitness log.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,20 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theCodeBear/React-Client-Prototype.git"
+    "url": ""
   },
   "keywords": [
     "React",
     "Webpack",
-    "Babel",
-    "Starter"
+    "Babel"
   ],
   "author": "Todd Kronenberg <toddkronenberg@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theCodeBear/React-Client-Prototype/issues"
+    "url": "/issues"
   },
-  "homepage": "https://github.com/theCodeBear/React-Client-Prototype#readme",
+  "homepage": "#readme",
   "dependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
